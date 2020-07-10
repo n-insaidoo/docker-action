@@ -19,3 +19,7 @@ echo
 echo "~~~ Verifying that we are within the right image"
 # here print anything you know to be present in the docker github action image
 cat /root/version.txt
+
+# testing meterian cli
+export METERIAN_CLI_ARGS=--debug
+/root/meterian.sh
