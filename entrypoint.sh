@@ -10,5 +10,6 @@ echo $PATH
 echo
 echo "~~~ Printing which java output"
 which java
-echo
-echo
+
+echo "~~~ Printing current dir contents"
+ls -lat
