@@ -10,4 +10,6 @@ jobs:
           - name: Checkout
             uses: actions/checkout@v2
           - name: Env vars and PATH test in parent image
-            uses: ./
+            uses: MeterianHQ/meterian-github-action@v1.0.2-canary
+            with:
+                entrypoint: ./entrypoint.sh
