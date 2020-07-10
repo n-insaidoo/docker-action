@@ -13,3 +13,9 @@ which java
 
 echo "~~~ Printing current dir contents"
 ls -lat
+echo
+
+# for test with different github actions 
+echo "~~~ Verifying that we are within the right image"
+# here print anything you know to be present in the docker github action image
+cat /root/version.txt
