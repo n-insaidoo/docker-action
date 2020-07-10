@@ -1,17 +1,17 @@
-name: My Workflow
+name: Meterian Vulnerability Scan Workflow
 
 on: push
 
 jobs:
-    env_path_test:
-        name: Env and PATH test
+    vuln_scan:
+        name: Vulnerability scan
         runs-on: ubuntu-latest
         steps: 
           - name: Checkout
             uses: actions/checkout@v2
-          - name: Env vars and PATH test in parent image
+          - name: Meterian scan
             uses: MeterianHQ/meterian-github-action@v1.0.2-canary
             env:
                 METERIAN_API_TOKEN: ${{ secrets.METERIAN_API_TOKEN }}
             with:
-                entrypoint: ./entrypoint.sh
+                cli_args: --debug
