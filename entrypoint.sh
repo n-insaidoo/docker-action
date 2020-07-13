@@ -40,4 +40,5 @@ chown meterian:meterian /home/meterian
 
 # launch meterian client with the newly created user
 export METERIAN_CLI_ARGS=--debug
+cp /root/meterian.sh /tmp/meterian.sh
 su meterian -c -m /tmp/meterian.sh
