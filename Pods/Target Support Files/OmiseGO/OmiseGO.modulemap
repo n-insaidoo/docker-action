@@ -1,0 +1,6 @@
+framework module OmiseGO {
+  umbrella header "OmiseGO-umbrella.h"
+
+  export *
+  module * { export * }
+}

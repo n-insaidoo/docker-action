@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BigInt (5.0.0)
+  - KeychainSwift (19.0.0)
+  - MBProgressHUD (1.2.0)
+  - OmiseGO (0.9.11):
+    - Starscream (~> 3.0)
+  - SipHash (1.2.2)
+  - SkyFloatingLabelTextField (3.8.0)
+  - Starscream (3.1.1)
+  - Toaster (2.2.0)
+  - TPKeyboardAvoiding (1.3.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - BigInt
+  - KeychainSwift
+  - MBProgressHUD
+  - OmiseGO
+  - SipHash
+  - SkyFloatingLabelTextField
+  - Starscream
+  - Toaster
+  - TPKeyboardAvoiding
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BigInt
+    - KeychainSwift
+    - MBProgressHUD
+    - OmiseGO
+    - SipHash
+    - SkyFloatingLabelTextField
+    - Starscream
+    - Toaster
+    - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BigInt: 74b4d88367b0e819d9f77393549226d36faeb0d8
+  KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  OmiseGO: db8131a7bb418ec2c8763f90101d696aab860001
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  Toaster: c1a81b376edcc2470157b4d1ee1e9341d3b96455
+  TPKeyboardAvoiding: 6dd3fe3268b8f2627beb7ff3d82a3cacbdf66a36
+
+PODFILE CHECKSUM: d226247df1a8d0aeb3ba5f7fdc438693086c2611
+
+COCOAPODS: 1.9.3
